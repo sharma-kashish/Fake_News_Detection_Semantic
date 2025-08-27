@@ -3,13 +3,6 @@
 ## Project Overview
 This repository contains a complete pipeline for detecting fake news articles using Natural Language Processing (NLP) and supervised machine learning. The goal is to classify news articles as **FAKE** or **REAL** based on semantic content rather than shallow keyword matching.
 
-## Repository Structure
-- `notebooks/`: Jupyter notebooks for data exploration, preprocessing, modeling, and evaluation.
-- `data/`: Contains training and validation datasets.
-- `models/`: Saved model files (Logistic Regression, Decision Tree, Random Forest).
-- `figures/`: Visualizations including n-gram plots, word distributions, and confusion matrices.
-- `report/`: Word-ready project report with embedded figure placeholders.
-
 ## Methodology
 1. **Data Loading & Cleaning**: Handled nulls and ensured consistent formatting.
 2. **Text Preprocessing**: Tokenization, stopword removal, lemmatization.
